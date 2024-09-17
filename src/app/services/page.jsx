@@ -1,5 +1,5 @@
 import {Achievesucesses} from '@/components/services/Achievesucesses'
-import {Ourservices} from '@/components/services/ourservices'
+import {Ourservices} from '@/components/services/Ourservices'
 import {Servicegrid} from '@/components/services/Servicegrid'
 import {Aboutus} from '@/components/services/Aboutus'
 import {ServicesHero} from '@/components/services/ServicesHero'

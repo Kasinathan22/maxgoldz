@@ -3,7 +3,7 @@ import { IoRocketOutline } from "react-icons/io5";
 import { HiOutlineLightBulb } from "react-icons/hi2";
 import { TbView360Arrow } from "react-icons/tb";
 
-const InfoCard = ({ Icon, text }) => {
+export const InfoCard = ({ Icon, text }) => {
   return (
     <div className="flex flex-col items-center p-4">
       <div className="mb-4 text-yellow-500">
@@ -17,7 +17,7 @@ const InfoCard = ({ Icon, text }) => {
 };
 
 const Servicegrid = () => {
-  const cardsData = [
+ const cardsData = [
     {
       Icon: IoRocketOutline,
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",

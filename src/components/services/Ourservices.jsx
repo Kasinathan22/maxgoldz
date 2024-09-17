@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Ourservices = ({ imageurl, title, para }) => {
+
+export const Ourservices = ({ imageurl, title, para }) => {
   return (
     <div className="flex flex-col md:flex-row items-center p-6 md:p-12 bg-white rounded-lg shadow-md">
       
@@ -8,7 +9,7 @@ const Ourservices = ({ imageurl, title, para }) => {
         <img
           src={imageurl}
           alt="cash for gold"
-          className="rounded-lg w-full h-auto object-cover md:object-cover sm: w-screen h-screen"
+          className="rounded-lg w-full h-auto object-cover md:object-cover sm:w-screen:h-screen"
         />
       </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ServicesHero = ({image}) => {
+export const ServicesHero = ({image}) => {
   return (
     <div>
       <img src={image} className='w-screen h-screen object-cover'/>

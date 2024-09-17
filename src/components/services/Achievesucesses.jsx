@@ -21,7 +21,7 @@ const servicesData = [
   },
 ];
 
-const ServiceCard = ({ title, description, image, buttonText, isReverse }) => {
+export const ServiceCard = ({ title, description, image, buttonText, isReverse }) => {
   return (
     <div
       className={`flex md:gap-8 gap-0 flex-col md:flex-row items-center justify-center bg-white rounded-lg mb-6 md:mb-8 ${

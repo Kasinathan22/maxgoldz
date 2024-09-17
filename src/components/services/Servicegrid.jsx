@@ -3,7 +3,7 @@ import { IoRocketOutline } from "react-icons/io5";
 import { HiOutlineLightBulb } from "react-icons/hi2";
 import { TbView360Arrow } from "react-icons/tb";
 
-export const InfoCard = ({ Icon, text }) => {
+ const InfoCard = ({ Icon, text }) => {
   return (
     <div className="flex flex-col items-center p-4">
       <div className="mb-4 text-yellow-500">

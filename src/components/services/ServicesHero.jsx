@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ServicesHero = ({image}) => {
+ const ServicesHero = ({image}) => {
   return (
     <div>
       <img src={image} className='w-screen h-screen object-cover'/>
@@ -14,4 +14,4 @@ const Hero = () => {
     />
   )
 }
-export default Hero;
+export default ServicesHero;

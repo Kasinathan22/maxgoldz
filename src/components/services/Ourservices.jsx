@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export const Ourservices = ({ imageurl, title, para }) => {
+ const Ourservices = ({ imageurl, title, para }) => {
   return (
     <div className="flex flex-col md:flex-row items-center p-6 md:p-12 bg-white rounded-lg shadow-md">
       
@@ -36,4 +36,4 @@ const ServicesContent = () => {
   );
 };
 
-export default ServicesContent;
+export default Ourservices;
